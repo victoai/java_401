@@ -1,9 +1,10 @@
-package day4;
+package day5.quiz.문나정;
 
-public class Ex01 {
+public class Qz_7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("*");
 
 	}
 
