@@ -10,10 +10,8 @@ public class Array2Ex {
 		String[] fruits= { "체리" ,"망고" , "복숭아" , "딸기" ,"수박"};
 		String[] beverage= { "아메리카노" , "흑임자라떼" , "탄산수" , "레몬티" , "망고쥬스"};
 		
-
 		
-		//2차원 배열
-		
+		//2차원 배열		
 		//2차원 배열 선언  [행][열]
 		
 		//String[][] favorites =new String[2][5];		
