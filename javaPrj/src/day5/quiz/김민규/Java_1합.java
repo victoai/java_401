@@ -10,10 +10,7 @@ public class Java_1합 {
 
         for (int i = 1; i <= 10; i++) {
             sum += i;
-        }
-
-     
-
+        } 
      
         System.out.println("10부터 1:");
 
