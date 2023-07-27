@@ -1,6 +1,6 @@
-package algo.day8.함수;
+package day8;
 
-public class Ex10 {
+public class Ex09 {
 
 	public static void main(String[] args) {
 		 
@@ -9,21 +9,12 @@ public class Ex10 {
 		//main에서 만든변수는 main에서만 유효함 
 		String[] days= new String[3];	   // 인자정보 , 반환 정보 활용
 		int i=0;  // 배열의   index
-		insertDay( days, i);			
-		selectDay( days );
+		days[i] = "놀러가기";		
+		System.out.println( days[i]);
+	 
 	}
 	
 
-
-	public static void selectDay(String[] days ) {		 
-		for( String day: days) {
-			System.out.println( day);
-		}		
-	}
-
-	
-	public static void insertDay(String[] a , int index ) {		
-		a[index]="놀러가기";
-	}
+ 
 
 }

@@ -1,4 +1,4 @@
-package algo.day8.함수;
+package day8;
 
 public class 문자연습하기 {
 

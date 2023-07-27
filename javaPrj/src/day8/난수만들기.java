@@ -1,4 +1,4 @@
-package algo.day8.함수;
+package day8;
 
 public class 난수만들기 {
 	public static void main(String[] args) {		

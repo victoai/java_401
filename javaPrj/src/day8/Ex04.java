@@ -1,4 +1,4 @@
-package algo.day8.함수;
+package day8;
 
 public class Ex04 {
 
