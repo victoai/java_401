@@ -29,7 +29,7 @@ public class Ex06 {
 			 case  2:
 				 System.out.println( "일정을 조회합니다. ");
 				 for( int i=0; i< index; i++) {
-					 System.out.println( days[i]);
+					 System.out.println( (i+1) +"." + days[i]);
 				 }				  
 				 break;
 			 case  3:

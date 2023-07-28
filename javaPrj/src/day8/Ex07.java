@@ -20,10 +20,7 @@ public class Ex07 {
 			 
 			 switch( menu) {
 			 case 1:
-				 System.out.println("일정을 입력하세요");	
-				 String day  =sc.nextLine();
-				 days[index]= day;
-				 index++;
+				 index = extracted(days, sc, index);
 				 break;
 			 case  2:
 				 System.out.println( "일정을 조회합니다. ");
@@ -72,5 +69,13 @@ public class Ex07 {
 		
 		System.out.println(" bye");
 	} //main  종료
+
+	public static int extracted(String[] days, Scanner sc, int index) {
+		System.out.println("일정을 입력하세요");	
+		 String day  =sc.nextLine();
+		 days[index]= day;
+		 index++;
+		return index;
+	}
 
 }
