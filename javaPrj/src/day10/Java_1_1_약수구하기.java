@@ -1,4 +1,4 @@
-package day7.quiz.김민규;
+package day10;
 
 import java.util.Scanner;
 
