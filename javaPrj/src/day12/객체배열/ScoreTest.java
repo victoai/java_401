@@ -19,7 +19,7 @@ public class ScoreTest {
 		// 참조형변수의 기본값   null 로 초기화됨
 		Score[]   arr = new Score[3];  // Score 객체가 만들어지지 않음
 		// String result  =arr[0].toString();
-		// nullPonterException
+		// NullPonterException
 		
 		arr[0]= new   Score("01", 100,90,50);
 		arr[1]= new   Score("02", 95,100,80);
@@ -30,6 +30,7 @@ public class ScoreTest {
 			System.out.println( score );
 			// System.out.println( score.toString());
 		}
+		
 	}
 
 }
