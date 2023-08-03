@@ -6,6 +6,8 @@ public interface BankI {
 	
 	public void withdraw(int Money);
 	
-	public void overrallPrint();
+	public void overrallPrint(
+			
+			);
 	
 }
