@@ -1,7 +1,7 @@
 package day14.ioEx;
 import java.io.*;
 
-public class Test2 {
+public class PrintWriterEx {
     public static void main(String[] args) {
         try {
             PrintWriter writer = new PrintWriter("res/numbers.txt");
