@@ -1,7 +1,7 @@
 package day14.ioEx;
 import java.io.File;
 
-public class CreateDirectoryExample {
+public class CreateMD {
     public static void main(String[] args) {
         String directoryPath = "C:\\acorn\\aa\\"; // 생성할 폴더 경로
 
@@ -16,8 +16,7 @@ public class CreateDirectoryExample {
             }
         } else {
             System.out.println("이미 폴더가 존재합니다.");
-        }
-        
+        }        
         
     }
 }
