@@ -1,6 +1,6 @@
 package day15.MyArrays;
 
-public class Score0   {
+public class Score0   implements Comparable   {
 private  String name;
 private  int kor;
 private   int eng;
@@ -45,6 +45,12 @@ public void setEng(int eng) {
 @Override
 public String toString() {
 	return "Score [name=" + name + ", kor=" + kor + ", eng=" + eng + "]";
+}
+@Override
+public int compareTo(Object obj) {
+	 
+	Score0  s= (Score0) obj;
+	return this.kor-s.kor;
 }
  
 

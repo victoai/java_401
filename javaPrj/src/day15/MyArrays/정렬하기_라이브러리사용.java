@@ -11,11 +11,16 @@ public class 정렬하기_라이브러리사용 {
 		Score0[] arr = new Score0[3];		
 		arr[0]= new Score0("이길동",90,71);
 		arr[1]= new Score0("김길동",70,99);
-		arr[2]= new Score0("박길동",90,89);
+		arr[2]= new Score0("박길동",50,89);
  
 		//class MyArrays.Score0 cannot be cast to class java.lang.Comparable 
 		
-		Arrays.sort(arr);		
+			Arrays.sort(arr);		
+			
+			
+			for( Score0 score : arr)
+				System.out.println( score);
+			
 		
 		//Exception !!
 		//class MyArrays.Score0 cannot be cast to class java.lang.Comparable 
@@ -39,17 +44,18 @@ public class 정렬하기_라이브러리사용 {
 				
 		
 		//Arrays.sort( Object[] obj,  Comparator c )
-		
-		Arrays.sort( arr, new Comparator(){
+		//	Arrays.sort( arr ,  new Comparator<Score0>() {});
+		Arrays.sort( arr ,  new Comparator<Score0>() {
+
 			@Override
-			public int compare(Object o1, Object o2) {
-				return 0;
+			public int compare(Score0 o1, Score0 o2) {
+				// TODO Auto-generated method stub
+				return  o1.getKor() - o2.getKor();
 			}});
+	 	
 		
-		
-		for( Score0 s: arr)
-			System.out.println( s);
-		
+		for( Score0 score : arr)
+			System.out.println( score);
 		
 		 
 		

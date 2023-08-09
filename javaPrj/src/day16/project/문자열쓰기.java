@@ -1,4 +1,4 @@
-package day16;
+package day16.project;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

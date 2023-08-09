@@ -40,10 +40,10 @@ public String toString() {
 	return "Score [name=" + name + ", kor=" + kor + ", eng=" + eng + "]";
 }
 @Override
-public int compareTo(Object obj) {
+public int compareTo(Object obj) {  // another (비교)
 	
 	Score s = (Score)obj;
-	return this.kor - s.getKor();
+	return this.kor - s.kor;
 }
   
 
