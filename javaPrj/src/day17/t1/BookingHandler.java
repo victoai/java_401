@@ -44,9 +44,6 @@ public class BookingHandler {
 		// list에서 검색 찾은 book객체 정보 전달		
 		return true; 
 	}
-	
-	
 	 
-	
 
 }
