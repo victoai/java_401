@@ -30,8 +30,7 @@ public class 배열변환1차원을2차원으로 {
 			
 			System.out.println();
 		}
-		
-		
+		 
 		
 		
 		

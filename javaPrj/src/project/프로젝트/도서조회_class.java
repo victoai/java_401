@@ -21,7 +21,7 @@ public class 도서조회_class extends bookList{
 		                int InputChange = Integer.parseInt(InputNumber);
 
 		                if (InputChange == 1 || InputChange == 2) {
-		                    for (int i = (InputChange-1)*5; i < (InputChange-1)*5+5; i++) {
+		                    for (int i = (InputChange-1)*5; i < (InputChange-1)*5+5; i++) {  // 0~4면 까지만  출력함 
 		                    	System.out.println("도서 번호 : " + booklist[i][3][0]);
 		                    	System.out.println("도 서 명 : " + booklist[i][0][0]);
 		                        System.out.println("저   자 : " + booklist[i][1][0]);
