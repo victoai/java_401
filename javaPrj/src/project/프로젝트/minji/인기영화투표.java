@@ -19,8 +19,19 @@ public class 인기영화투표 {
 		System.out.println(" 요즘 인기 영화를 소개합니다\n");
 		selectMovie();
 		
-		
 		System.out.println("\n \n 재미있어 보이는 영화 5개를 선택주세요");
+		choiceMovie();
+		 
+		//인기순으로 조회하기
+		System.out.println(" 인기순 정렬");
+		인기순으로조회하기(); 
+		
+		
+	}
+
+
+	public static void choiceMovie() {
+	
 		
 		for(int i=0; i<5; i++) {
 
@@ -30,14 +41,6 @@ public class 인기영화투표 {
 			movie.increatePopular();
 			
 		}
-		
-		
-		//인기순으로 조회하기
-		System.out.println(" 인기순 정렬");
-		인기순으로조회하기();
-		
-		
-		
 	}
 
 	
