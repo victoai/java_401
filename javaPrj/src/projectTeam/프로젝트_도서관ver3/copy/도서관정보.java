@@ -1,16 +1,16 @@
-package projectTeam.프로젝트_도서관ver3;
+package projectTeam.프로젝트_도서관ver3.copy;
 
 import java.util.Scanner;
 
 public class 도서관정보{
 
+	 
 	
-	
-	우리도서관 now = new 우리도서관();
+	우리도서관 now = new 우리도서관("여의샛강도서관", "영등포구 여의대로 24  평일 09:00~20   주말 09:00~17:00", "매주 월요일  법정공휴일","개인당 최대 10권",  "최대 21일  연장불가","전 화 번 호 : 02-2629-2222");
 	대림도서관 dl = new 대림도서관();
 	생각공장도서관 sg = new 생각공장도서관();
 	
-	
+	 
 	
 	
 	public void other() {
@@ -26,37 +26,19 @@ public class 도서관정보{
 			case 1:
 				System.out.println("\n 현재 도서관 정보");
 				System.out.println(" ====================");
-				now.이름();
-				now.주소();
-				now.운영시간();
-				now.휴관일();
-				now.대여권수();
-				now.대여일수();
-				now.전화번호();
+				System.out.println( now);
 				System.out.println("");
 				break;
 			case 2:
 				System.out.println("\n 대림도서관 정보");
 				System.out.println(" ====================");
-				dl.이름();
-				dl.주소();
-				dl.운영시간();
-				dl.휴관일();
-				dl.대여권수();
-				dl.대여일수();
-				dl.전화번호();
+				System.out.println( dl );
 				System.out.println("");
 				break;
 			case 3 :
 				System.out.println("\n 생각공장도서관 정보");
 				System.out.println(" ====================");
-				sg.이름();
-				sg.주소();
-				sg.운영시간();
-				sg.휴관일();
-				sg.대여권수();
-				sg.대여일수();
-				sg.전화번호();
+				System.out.println(sg);
 				System.out.println("");
 				break;
 			case 4 :

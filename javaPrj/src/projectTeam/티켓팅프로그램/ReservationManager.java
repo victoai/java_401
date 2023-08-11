@@ -99,7 +99,8 @@ public class ReservationManager {
 	public static void deleteSeat(Area sector) {
 		System.out.println("좌석을 선택해주세요:");
 
-		int index = sc.nextInt();
+		String index_ = sc.nextLine();
+		int index  = Integer.parseInt(index_);
 
 		if (index >= 0 && index < sector.Concert.length) {
 			if (sector.Concert[index - 1] == '■') {
@@ -120,7 +121,7 @@ public class ReservationManager {
 		System.out.println("좌석을 선택해주세요:");
 		int index = sc.nextInt();
 
-		if (index >= 0 || index < sector.Concert.length) {
+		if (index >= 0 && index < sector.Concert.length) {
 			if (sector.Concert[index - 1] == '■') {
 				System.out.println("이미 등록된 좌석입니다");
 			} else {

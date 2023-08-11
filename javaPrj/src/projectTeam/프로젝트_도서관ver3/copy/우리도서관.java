@@ -1,8 +1,39 @@
-package projectTeam.프로젝트_도서관ver3;
+package projectTeam.프로젝트_도서관ver3.copy;
 
 public class 우리도서관 {
 // 이름, 주소, 운영시간, 휴관일, 대여권수, 대여일수, 전화번호
 	
+	String 이름;
+	String  주소;
+	String  운영시간;
+	String 휴관일;
+	String 대여권수 ;
+	String 전화번호;
+	public 우리도서관() {
+		// TODO Auto-generated constructor stub
+	}
+	public 우리도서관(String 이름, String 주소, String 운영시간, String 휴관일, String 대여권수, String 전화번호) {
+		super();
+		this.이름 = 이름;
+		this.주소 = 주소;
+		this.운영시간 = 운영시간;
+		this.휴관일 = 휴관일;
+		this.대여권수 = 대여권수;
+		this.전화번호 = 전화번호;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "우리도서관 [이름=" + 이름 + ", 주소=" + 주소 + ", 운영시간=" + 운영시간 + ", 휴관일=" + 휴관일 + ", 대여권수=" + 대여권수 + ", 전화번호="
+				+ 전화번호 + "]";
+	}
+	
+	
+	
+	
+	
+	/*
 	public void 이름() {
 		System.out.println(" 이     름 : 여의샛강도서관");
 	}
@@ -27,7 +58,7 @@ public class 우리도서관 {
 	public void now도서관() {
 				
 	}
-	
+	*/
 	
 	
 	
